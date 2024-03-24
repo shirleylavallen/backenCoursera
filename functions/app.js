@@ -13,7 +13,7 @@ app.use((req, res, next) => {
   next();
 });
 
-const indexRoutes = require('./routes/index')
+const indexRoutes = require('../src/routes/index')
 
 //setting
 app.set('port', process.env.PORT || 3030);
